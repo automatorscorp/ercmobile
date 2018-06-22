@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp\htdocs\Phonegap\ercmobile\www\mobileapp.clpprj">
+	<settings><PM_URL><![CDATA[]]></PM_URL><PM_HOME_URL><![CDATA[]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value="C:\Users\Joeben\Documents\Phonegap\appSample\www\util\data.json;"/><lastopfiles>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\TransactionList.php"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\index.html"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\css\index.css"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\util\ExtractTable.php"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\util\connect.php"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\TransactionListGet.php"/>
+	</lastopfiles>
+	<todoblock>
+		<todofile name="C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php">
+			<todo name="TODO: Consider retry on #1205 (lock wait timeout exceeded)" pos="9;115"/>
+			<todo name="TODO: Log warning" pos="9;116"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php" crc="1411597012"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\util\ExtractTable.php" crc="1529595930"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\util\ExtractColumnData.php" crc="1518745178"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\util\connect.php" crc="1529591666"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php" crc="1504769697"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php" crc="1393729528"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\spec\lib\jasmine-1.2.0\jasmine.js" crc="1518529552"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\spec\lib\jasmine-1.2.0\jasmine.css" crc="1518529552"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\spec\lib\jasmine-1.2.0\jasmine-html.js" crc="1518529552"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\spec\index.js" crc="1518529552"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\spec\helper.js" crc="1518529552"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\js\util.js" crc="1519824611"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\js\jquery.js" crc="1469071134"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\js\index.js" crc="1518529552"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\js\cordova.js" crc="1509350818"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\docs\requirement.txt" crc="1519226848"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\css\index.css" crc="1518529551"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\TransactionListGet.php" crc="1518696377"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\TransactionList.php" crc="1529592751"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\TableEntry.php" crc="1519825529"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\spec.html" crc="1518529552"/>
+		<file name="C:\xampp\htdocs\Phonegap\ercmobile\www\index.html" crc="1529595877"/>
+	</filescache>
+</project>

@@ -1,0 +1,7 @@
+create booking table
+auto generate booking time for the day
+create another table for list of players under each booking time
+add button for every booking but disable button if 5 players maximum
+add collapsible button for each booking showing the players.
+
+

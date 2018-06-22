@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />-->
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>ERC Mobile App</title>
+    
+    
+    
+	<style>
+	
+	/*desktop size	*/
+	
+	.bold{
+		text-decoration: underline;
+		font-weight: bolder;
+		color:green;
+		font-size: 12px;
+	}
+	.headerfont{
+		font-size:14px;
+	}
+	
+	.selectsearchby{
+		width:140px;font-size:12px;height:20px;font-weight: normal;
+	}
+	.searchkey{
+		width:150px;font-size:10px;background-color:#fcf8a3";
+	}
+	.tdoperator{
+		width:50px;
+	}
+	.dataliststyle{
+			font-size:10px;	font:Arial, Helvetica, sans-serif;font-weight:bold;
+	  		border:solid #CCCCCC;border-width: 1px 0px 0px 1px;
+	  		padding: 0em;padding-left:.50em;margin: 0em;"
+		}
+		
+	.buttonedit {
+	   	width: 20px;
+	    height: 20px;
+    }
+    
+    .buttondelete {
+	   	width: 20px;
+	    height: 20px;
+    }
+	
+	
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:focus {
+	
+		text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
+		background-image: -webkit-linear-gradient(top, #fff 0%,  #d6e6fa  100%); 
+		background-image: linear-gradient(to bottom, #fff 0%,  #d6e6fa  100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff #d6e6fa ', 
+		endColorstr='#ff #d6e6fa', GradientType=0); 
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+		background-repeat: repeat-x;
+		border-radius: 4px;
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+	  
+	}
+	
+	.navbar-nav > li > a {
+		text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
+	  	background-color: white;
+	  	color: black;
+	}
+		
+ 	.navbar-default {
+	  background-color: ;
+	  
+	}
+	
+	.dropdown-menu > li > a {
+	    background-color: #fafafa;
+	    padding: 3px 20px;
+	    color: #7e787b; 
+		font-weight: bolder; 
+		font-size: 11px;
+		font-family:"Courier New", Courier, monospace;
+		
+	}
+	
+	.dropdown-menu > li > a:hover,
+	.dropdown-menu > li > a:focus,
+	.dropdown-menu > li > a:active{
+		color:#060000;
+		background-color:  #d3dbfc;	
+		
+	}
+	
+	.dropdown:hover .dropdown-menu {
+    display: block;
+ 	}
+ 	
+ 	li.dropdown > a:link,
+	li.dropdown > a:active,
+	li.dropdown > a:hover,
+	li.dropdown > a:visited {
+	    font-weight: bolder; 
+		font-size: 12px;
+		color: #8a8487;
+		border:solid #bfbfbf;
+		border-width: 0px 0px 1px 0px;
+		white-space:nowrap;
+		border-bottom-color:#bfbfbf; 
+	}
+	
+	
+	li.dropdown > a:hover {
+	    font-weight: bolder; 
+		font-size: 12px;
+		color: #372d64;
+		border:solid #372d64;
+		border-width: 0px 0px 1px 0px;
+		white-space:nowrap;
+		border-bottom-color:#372d64; 
+	}
+	
+	
+	.dropdown-menu .divider {
+	  height: 1px;
+	  margin: 0px 0;
+	  overflow: hidden;
+	  background-color: #d0cecf;
+	}
+	
+	.responsive-image {
+	  height: auto;
+	  width: auto;
+	}
+	
+	.logo-image {
+	  height: 70px;
+	  width: 130px;
+	}
+	
+	.icon-image {
+	  height: 30px;
+	  width: 30px;
+	}
+	
+	.icon-image:hover {
+	    transform: scale(1.5, 1.5);
+	    opacity: 1;
+	}
+	
+	td:focus {
+	    outline: none !important;
+	    border:1px solid red;
+	    box-shadow: 0 0 10px #719ECE;
+	}
+	
+	 td > input:focus {
+	    outline: none !important;
+	    border:1px solid red;
+	    box-shadow: 0 0 10px #719ECE;
+	}
+	
+	
+	.minwidth {
+		min-width: 10px;
+		overflow: hidden;
+	    white-space: nowrap;
+	}
+	
+	
+
+	
+	/* to make submenu work in smartphone*/
+	@media (max-width: 767px) {
+		
+	  	.navbar-nav .open .dropdown-menu {
+	    	position: relative;
+	  	}
+	  	
+	  	.navbar-toggle {
+	      	position:relative;
+		    float:right;
+		    padding:9px 10px;
+		    margin-top:8px;
+		    margin-right:15px;
+		    margin-bottom:8px;
+		    background-color:transparent;
+		    background-image:none;
+		    border-radius:4px;
+		    border:1px solid #444;
+	       
+	    }
+    
+    	.icon-bar{
+		    display:block;
+		    width:22px;
+		    height:2px;
+		    border-radius:1px;
+		    border:1px solid #444;
+		}
+    	
+    	.navbar-default {
+		  background-color: white;
+		}
+	  	.navbar-nav > li > a {
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
+		  	background-color: ;
+		  	color: #ccc;
+		  	
+	  	}
+	  	
+	  	li.dropdown > a:link,
+		li.dropdown > a:active,
+		li.dropdown > a:hover,
+		li.dropdown > a:visited {
+			background-color:white;
+		    font-weight: bolder; 
+			font-size: 12px;
+			color: black;
+			border:1px solid #cecece;
+		}
+	  	
+	  	.dropdown:hover .dropdown-menu {
+	    	display:;
+	 	}
+	  	
+	  	.dropdown-menu > li > a {
+		    background-color: #b9d5f7;
+		    padding: 3px 20px;
+		    color: black; 
+			font-weight: bolder; 
+			font-size: 10px;
+		}
+	  	
+	  	.dropdown-menu .divider {
+		  height: 1px;
+		  margin: 0px 0;
+		  overflow: hidden;
+		  background-color: #cecece;
+		}
+	  	
+	  	.headerfont{
+			font-size:10px;	
+		}
+		.dataliststyle{
+			font-size:8px;	
+		}
+		.selectsearchby{
+			width:80px;font-size:8px;height:18px;font-weight: normal;
+		}
+		.searchkey{
+			width:80px;font-size:8px;;
+		}
+		.tdoperator{
+			width:35px;font-size:8px;height:20px;font-weight: normal;
+		}
+		
+		
+		th.lighterbluetone{
+			font-size:8px;	
+		}
+		td.lighterbluetone{
+			font-size:8px;	
+		}
+		td.griditems,td.gridcenteritems,td.gridrightitems{
+			font-size:8px;
+		}	
+		.buttonedit {
+		   	width: 12px;
+		    height: 12px;
+    	}
+    	.buttondelete {
+		   	width: 12px;
+		    height: 12px;
+    	}
+    	
+    	
+	}	
+	
+	@media (min-width: 600px) {
+    .container{max-width: 600px;width: 600px;}
+	}
+	@media (min-width: 768px) {
+	    .container{max-width: 900px;}
+	}
+	@media (min-width: 992px) {
+	    .container{max-width: 900px;}
+	}
+	@media (min-width: 1024px) {
+	    .container{width: 970px;}
+	}
+	@media (min-width: 1200px){
+	    .container{width: 1170px;max-width: 1170px;}
+	}
+	
+	/*make modal-dialog change size	*/
+		
+	
+	/*make modal-dialog change size*/
+	@media screen and (min-width: 768px) {
+		#myModalMaster  .modal-dialog  {width:800px;}	
+		#myModalMaster2 .modal-dialog  {width:800px;}
+		#myModalMaster1 .modal-dialog  {width:800px;}
+		
+	}
+	
+	@media screen and (min-width: 1024px) {
+		#myModalMaster  .modal-dialog  {width:970px;}	
+		#myModalMaster2 .modal-dialog  {width:970px;}
+		#myModalMaster1 .modal-dialog  {width:970px;}
+		#myModalReport  .modal-dialog  {width:500px;}
+	}
+	
+	@media screen and (min-width: 1200px) {
+		#myModalMaster  .modal-dialog  {width:1170px;}	
+		#myModalMaster2 .modal-dialog  {width:1170px;}
+		#myModalMaster1 .modal-dialog  {width:1170px;}
+	}
+ 	
+	
+	.dropdown-menu {
+		
+  		background-color: #6ba6ed;
+  		height: 25px;
+    	padding-top: 2px;
+		
+  	}
+  	
+  	
+	
+	
+	
+	
+	
+	
+	
+ 	/*.table-striped>tbody>tr:nth-child(even)>td, 
+	.table-striped>tbody>tr:nth-child(even)>th {
+	   background-color: #ffdfc1;
+	 }
+	 
+	.table-striped > tbody > tr:nth-child(even) > td,
+	.table-striped > tbody > tr:nth-child(even) > th {
+	  background-color: #fbd5dc;}
+	 */
+	 
+	.table-striped > tbody > tr:nth-of-type(odd) > td,
+	.table-striped > tbody > tr:nth-of-type(odd) > th {
+	  background-color: #f9f9f9;}
+	   
+	
+	  
+	.table-hover > tbody > tr:hover > td,
+	.table-hover > tbody > tr:hover > th {
+	  background-color: #f1f1a3;
+	}
+
+	.griditems td:nth-of-type(odd) {
+	  background-color: #f1f1a3;}
+	   
+
+	.table-condensed > tbody > tr > td{
+	 	padding: 2px;
+	 }
+	.table-condensed > tfoot > tr > td {
+	  	padding: 3px;
+	}
+	
+	.menu-item {
+		font-weight: bolder; 
+		font-size: 12px
+	}
+	
+	
+	
+	
+	
+	.modal-header {
+	  padding: 10px;
+	}
+	
+	.modal-footer {
+	  padding: 10px;
+	}
+	
+	.form-group {
+	  margin-bottom: 10px;
+	}
+	
+	.hidden { display: none; };
+	
+	
+	
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function()
+ 		{
+ 			
+ 		});	
+    </script>
+</head>
+
+<body onload="showpageonload('Product')">
+	<script type="text/javascript" src="js/cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+    <script type="text/javascript">
+    	/*
+    	$("#searchinvoicebtn").click(function(){
+    		alert();
+			var fullname=$("#fullname").val();
+			var email=$("#email").val();
+			var password=$("#password").val();
+			var dataString="fullname="+fullname+"&email="+email+"&password="+password+"&signup=";
+			if($.trim(fullname).length>0 & $.trim(email).length>0 & $.trim(password).length>0)
+			{
+			$.ajax({
+			type: "POST",
+			url: url,
+			data: dataString,
+			crossDomain: true,
+			cache: false,
+			beforeSend: function(){ $("#signup").val('Connecting...');},
+			success: function(data){
+			if(data=="success")
+			{
+			alert("Thank you for Registering with us! you can login now");
+			}
+			else if(data="exist")
+			{
+			alert("Hey! You alreay has account! you can login with us");
+			}
+			else if(data="failed")
+			{
+			alert("Something Went wrong");
+			}
+			}
+			});
+			}return false;
+			
+		});
+		*/
+		    
+    	function showpageonload(table){
+	    	if (window.XMLHttpRequest)
+		      {// code for IE7+, Firefox, Chrome, Opera, Safari
+		      xmlhttp=new XMLHttpRequest();
+		      }
+		    else
+		      {// code for IE6, IE5
+		      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		      }
+
+		    xmlhttp.onreadystatechange=function()
+		      {
+		      if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		        {
+		        document.getElementById('index_content').innerHTML=xmlhttp.responseText;
+		       
+		        }
+		      }
+		    
+			xmlhttp.open("GET","http://119.81.153.170/ercmobile/TransactionList.php?table="+table,true);
+			 
+		    xmlhttp.send();
+		}
+	
+    	
+    
+		$("body").on("click","#searchinvoicebtn", 
+			function() 																																																													{  
+	
+		try{
+			
+			/*
+			url="http://192.168.43.250:3000/util/ExtractTable.php";
+			$.getJSON(url,function(result){
+				alert();
+				console.log(result);
+				$.each(result, function(i, field){
+					var id=field.ProductID;
+			 		var lotname=field.ProductName;
+			 		var client=field.ClientName;
+			 		$("#listview").append(id+" "+lotname+" "+client);
+			 	});
+			 });
+			*/
+			
+			//ShowLoading('txtMainRoute');
+			//alert();
+			//GetColumnData('product','productname','','',false);
+			/*
+			dataString="table=product=&columnname=productname&keyname=&keyvalue";
+			$.ajax({
+				
+				type: "GET",
+				url: "http://192.168.43.250:3000/util/ExtractColumnData.php",
+				data: dataString,
+				crossDomain: true,
+				cache: false,
+				beforeSend: function(){ $("#searchinvoicebtn").val('Connecting...');},
+				success: function(data){
+						alert(data);
+					
+				}
+			});
+			*/
+			$.support.cors=true;
+			//$.mobile.allowCrossDomainPages = true;
+			$.ajax({
+				type: "GET",
+				url: "http://119.81.153.170/ercmobile/util/ExtractTable.php?table=pomaster&relatedtable=podetail",
+				crossDomain: true,
+				cache: false,
+				beforeSend: function(){ $("#searchinvoicebtn").val('Connecting...');},
+				success: function(result,textStatus,jqXHR){
+						//alert(result);
+						//document.write("<table width='100' border='0'></table>");
+						var body = document.body;
+						var tbl  = document.createElement("table");
+						
+        				var trhead = tbl.insertRow();
+        				var tdhead1 = trhead.insertCell();
+				 		var tdhead2 = trhead.insertCell();
+				 		var tdhead3 = trhead.insertCell();
+				 		var tdhead4 = trhead.insertCell();
+				 		var tdhead5 = trhead.insertCell();
+				 		var tdhead6 = trhead.insertCell();
+				 		var tdhead7 = trhead.insertCell();
+				 		var tdhead8 = trhead.insertCell();
+				 		var tdhead9 = trhead.insertCell();
+				 		var tdhead10 = trhead.insertCell();
+				 		
+				 		tdhead1.style.border = '1px solid black';
+				 		tdhead2.style.border = '1px solid black';
+				 		tdhead3.style.border = '1px solid black';
+				 		tdhead4.style.border = '1px solid black';
+				 		tdhead5.style.border = '1px solid black';
+				 		tdhead6.style.border = '1px solid black';
+				 		tdhead7.style.border = '1px solid black';
+				 		tdhead7.style.border = '1px solid black';
+				 		tdhead8.style.border = '1px solid black';
+				 		tdhead9.style.border = '1px solid black';
+				 		tdhead10.style.border = '1px solid black';
+				 		tbl.style.border = '1px solid black';
+				 		
+				 		tdhead1.appendChild(document.createTextNode('No'));
+				 		tdhead2.appendChild(document.createTextNode('P O DATE'));
+				 		tdhead3.appendChild(document.createTextNode('DUE DATE'));
+				 		tdhead4.appendChild(document.createTextNode('REQUESTED BY'));
+				 		tdhead5.appendChild(document.createTextNode('QTY'));
+				 		tdhead6.appendChild(document.createTextNode('PARTICULARS'));
+				 		tdhead7.appendChild(document.createTextNode('PRICE'));
+				 		tdhead8.appendChild(document.createTextNode('AMOUNT'));
+				 		tdhead9.appendChild(document.createTextNode('REMARKS'));
+				 		tdhead10.appendChild(document.createTextNode(''));
+				 		
+				 		$.each(result, function(i, field){
+							var tid=field.POMasterID;
+					 		var PODate=field.PODate;
+					 		var DueDate=field.DueDate;
+					 		var RequestedBy=field.RequestedBy;
+					 		var Qty=field.Qty;
+					 		var Particulars=field.Particulars;
+					 		var Price=field.Price;
+					 		var Amount=field.Amount;
+					 		var Remarks=field.Remarks;
+					 		
+					 		var tr = tbl.insertRow();
+					 		var td1 = tr.insertCell();
+					 		var td2 = tr.insertCell();
+					 		var td3 = tr.insertCell();
+					 		var td4 = tr.insertCell();
+					 		var td5 = tr.insertCell();
+					 		var td6 = tr.insertCell();
+					 		var td7 = tr.insertCell();
+					 		var td8 = tr.insertCell();
+					 		var td9 = tr.insertCell();
+					 		var td10 = tr.insertCell();
+					 		var input10a = document.createElement("input");
+					 		var input10b = document.createElement("input");
+					 		
+					 		
+					 		input10a.id='view' + tid
+							input10a.type = "image";
+							input10a.src="img/view_item.png" ;
+					 		input10a.style="width:20px;height:20px;" ;
+					 		input10a.onclick = function() { alert(input10a.id); };
+
+					 		
+							input10b.id='add'+ tid
+							input10b.type = "image";
+							input10b.src="img/add.png" ;
+					 		input10b.style="width:20px;height:20px;" ;
+					 		input10b.onclick = function() { alert(input10b.id); };
+					 		
+					 		
+					 		td1.appendChild(document.createTextNode(i+1));
+					 		td2.appendChild(document.createTextNode(PODate));
+					 		td3.appendChild(document.createTextNode(DueDate));
+					 		td4.appendChild(document.createTextNode(RequestedBy));
+					 		td5.appendChild(document.createTextNode(Qty));
+					 		td6.appendChild(document.createTextNode(Particulars));
+					 		td7.appendChild(document.createTextNode(Price));
+					 		td8.appendChild(document.createTextNode(Amount));
+					 		td9.appendChild(document.createTextNode(Remarks));
+					 		td10.appendChild(input10a);
+					 		td10.appendChild(input10b);
+					 		
+					 		td1.style.border = '1px solid black';
+					 		td2.style.border = '1px solid black';
+					 		td3.style.border = '1px solid black';
+					 		td4.style.border = '1px solid black';
+					 		td5.style.border = '1px solid black';
+					 		td6.style.border = '1px solid black';
+					 		td7.style.border = '1px solid black';
+					 		td8.style.border = '1px solid black';
+					 		td9.style.border = '1px solid black';
+					 		td10.style.border = '1px solid black';
+					 		td10.style.textAlign = 'center';
+					 		//$("#listview").append(++i+" "+TeeTimeDate+" "+TeeTimeTime+" ("+PlayerCount+")</br>");
+					 	});
+						body.appendChild(tbl);
+				},
+				error: function (xhr, status, error) {
+		            alert(xhr.responseText+status+error);
+
+		        }
+			});
+			
+		
+		}
+		catch(err){
+			
+				  txt="There was an error on this page.\n\n";
+				  txt+="Error description: " + err.message + "\n\n";
+				  txt+="Click OK to continue.\n\n";
+				  alert(txt);
+		  	}
+	 });
+
+	
+    
+    	
+    </script>
+    <div id="index_content"></div>
+    
+</body>
+
+</html>

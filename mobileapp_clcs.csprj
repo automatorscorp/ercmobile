@@ -1,0 +1,208 @@
+<codestructure version="5.11">
+<phptree>
+<treenode node="../util/class.misc.php;PHP:PHP Include;C:\xampp\htdocs\erc\employer\index.php;f15;7;37;7;;C:\xampp\htdocs\Phonegap\ercmobile\www\TableEntry.php;f15;8;37;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/classes.php;PHP:PHP Include;C:\xampp\htdocs\erc\employer\index.php;f15;10;34;10;;C:\xampp\htdocs\Phonegap\ercmobile\www\TableEntry.php;f15;11;34;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/config.php;PHP:PHP Include;C:\xampp\htdocs\erc\employer\index.php;f15;9;33;9;;C:\xampp\htdocs\Phonegap\ercmobile\www\TableEntry.php;f15;9;33;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/connect.php;PHP:PHP Include;C:\xampp\htdocs\Phonegap\ercmobile\www\util\ExtractColumnData.php;f15;0;34;0;;C:\xampp\htdocs\Phonegap\ercmobile\www\TableEntry.php;f15;12;34;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/mysqli.php;PHP:PHP Include;C:\xampp\htdocs\erc\employer\index.php;f15;8;33;8;;C:\xampp\htdocs\Phonegap\ercmobile\www\TableEntry.php;f15;10;33;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/util.php;PHP:PHP Include;C:\xampp\htdocs\erc\employer\index.php;f20;11;36;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/class.misc.php;PHP:PHP Include;C:\xampp\htdocs\greatswiss\system\index.php;f15;7;37;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/classes.php;PHP:PHP Include;C:\xampp\htdocs\greatswiss\system\index.php;f15;10;34;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/config.php;PHP:PHP Include;C:\xampp\htdocs\greatswiss\system\index.php;f15;9;33;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/mysqli.php;PHP:PHP Include;C:\xampp\htdocs\greatswiss\system\index.php;f15;8;33;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/SequenceConstant.php;PHP:PHP Include;C:\xampp\htdocs\greatswiss\system\index.php;f20;12;48;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/util.php;PHP:PHP Include;C:\xampp\htdocs\greatswiss\system\index.php;f20;13;36;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../util/connect.php;PHP:PHP Include;C:\xampp\htdocs\appSample\www\util\ExtractColumnData.php;f15;0;34;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="footer.php;PHP:PHP Include;C:\xampp\htdocs\greatswiss\system\index.php;f18;3546;28;3546;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="GetCrudIcons.php;PHP:PHP Include;C:\xampp\htdocs\appSample\www\TransactionListGet.php;f19;253;35;253;;C:\xampp\htdocs\Phonegap\ercmobile\www\TransactionListGet.php;f19;253;35;253;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="util/class.misc.php;PHP:PHP Include;C:\xampp\htdocs\appSample\www\TransactionListGet.php;f9;5;28;5;;C:\xampp\htdocs\erc\index.php;f15;13;34;13;;C:\xampp\htdocs\Phonegap\ercmobile\www\TransactionListGet.php;f9;5;28;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="util/classes.php;PHP:PHP Include;C:\xampp\htdocs\appSample\www\TransactionListGet.php;f9;7;25;7;;C:\xampp\htdocs\erc\index.php;f15;16;31;16;;C:\xampp\htdocs\Phonegap\ercmobile\www\TransactionListGet.php;f9;7;25;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="util/config.php;PHP:PHP Include;C:\xampp\htdocs\erc\index.php;f15;15;30;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="util/connect.php;PHP:PHP Include;C:\xampp\htdocs\appSample\www\TransactionListGet.php;f9;4;25;4;;C:\xampp\htdocs\Phonegap\ercmobile\www\TransactionListGet.php;f9;4;25;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="util/ErrorMessageConstant.php;PHP:PHP Include;C:\xampp\htdocs\erc\index.php;f15;18;44;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="util/mysqli.php;PHP:PHP Include;C:\xampp\htdocs\appSample\www\TransactionListGet.php;f9;6;24;6;;C:\xampp\htdocs\erc\index.php;f15;14;30;14;;C:\xampp\htdocs\Phonegap\ercmobile\www\TransactionListGet.php;f9;6;24;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="util/util.php;PHP:PHP Include;C:\xampp\htdocs\erc\index.php;f15;17;28;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="DataEntry;PHP:Class Name;C:\xampp\htdocs\appSample\www\util\classes.php;f0;189;1;399;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f0;189;1;399;;;;vpos;;v;;r;;d15,189;;b0,0;;m">
+<treenode node="DatalistEntry;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;209;2;397;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;209;2;397;;;;vpos;;v;;r;;d273,209;;b0,0;;mtablename;;pdisplayfield;;prowID;;pfieldvalue;;pdisplayfieldvalue;;prelatedtable;;prelatedtablefield;;prelatedtablevalue;;prelatedtableoperator;;prelatedtable2;;prelatedtable2field;;prelatedtable2value;;prelatedtable2operator;;pdatalistsize;;pbgcolor;;pEncodedBy;;p">
+</treenode>
+<treenode node="DateEntry;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;190;2;207;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;190;2;207;;;;vpos;;v;;r;;d81,190;;b0,0;;mtablename;;pfieldname;;prowID;;pfieldvalue;;pbgcolor;;pEncodedBy;;p">
+</treenode>
+</treenode>
+<treenode node="DataTable;PHP:Class Name;C:\xampp\htdocs\appSample\www\util\classes.php;f0;401;1;950;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f0;401;1;950;;;;vpos;;v;;r;;d15,401;;b0,0;;m">
+<treenode node="Delete;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;849;2;884;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;849;2;884;;;;vpos;;v;;r;;d43,849;;b0,0;;mtable;;pkeyname;;pkeyvalue;;p">
+</treenode>
+<treenode node="DeleteCascade;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;911;2;948;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;911;2;948;;;;vpos;;v;;r;;d83,911;;b0,0;;mmastertable;;pdetailtable;;pdetailtable2;;pkeyname;;pkeyvalue;;p">
+</treenode>
+<treenode node="DeleteMasterDetail;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;886;2;909;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;886;2;909;;;;vpos;;v;;r;;d88,886;;b0,0;;mmastertable;;pdetailtable;;pdetailtable2;;pkeyname;;pkeyvalue;;p">
+</treenode>
+<treenode node="Get;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;800;2;835;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;800;2;835;;;;vpos;;v;;r;;d40,800;;b0,0;;mtable;;pkeyname;;pkeyvalue;;p">
+</treenode>
+<treenode node="getCategorys;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;402;2;416;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;402;2;416;;;;vpos;;v;;r;;d38,402;;b0,0;;mcategorytable;;p">
+</treenode>
+<treenode node="getCategorysAll;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;418;2;443;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;418;2;443;;;;vpos;;v;;r;;d48,418;;b0,0;;mcategorytable;;porder;;p">
+</treenode>
+<treenode node="getCategorysWKey;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;445;2;546;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;445;2;546;;;;vpos;;v;;r;;d53,445;;b0,0;;mtable;;pkeyname;;pkeyvalue;;p">
+</treenode>
+<treenode node="getCategorysWKeyNRelatedTable;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;567;2;608;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;567;2;608;;;;vpos;;v;;r;;d90,567;;b0,0;;mtable;;prelatedtable;;pkeyname;;pkeyvalue;;poperator;;p">
+</treenode>
+<treenode node="getCategorysWKeyNRelatedTable2;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;611;2;637;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;611;2;637;;;;vpos;;v;;r;;d117,611;;b0,0;;mtable;;prelatedtable;;ptablekeyname;;prelatedtablekeyname;;pkeyvalue;;poperator;;p">
+</treenode>
+<treenode node="getCategorysWKeyNRelatedTable3;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;639;2;683;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;639;2;683;;;;vpos;;v;;r;;d117,639;;b0,0;;mtable;;prelatedtable;;ptablekeyname;;prelatedtablekeyname;;pkeyvalue;;poperator;;p">
+</treenode>
+<treenode node="getCategorysWKeyOperator;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;548;2;565;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;548;2;565;;;;vpos;;v;;r;;d71,548;;b0,0;;mtable;;pkeyname;;pkeyvalue;;poperator;;p">
+</treenode>
+<treenode node="GetOneRecord;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;837;2;847;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;837;2;847;;;;vpos;;v;;r;;d30,837;;b0,0;;mtable;;p">
+</treenode>
+<treenode node="Save;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;686;2;798;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;686;2;798;;;;vpos;;v;;r;;d53,686;;b0,0;;mposteddata;;ptable;;pkeyname;;pkeyvalue;;p">
+</treenode>
+</treenode>
+<treenode node="Download;PHP:Class Name;C:\xampp\htdocs\appSample\www\util\classes.php;f0;99;1;118;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f0;99;1;118;;;;vpos;;v;;r;;d14,99;;b0,0;;m">
+<treenode node="getDownload;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;109;2;117;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;109;2;117;;;;vpos;;v;;r;;d26,109;;b0,0;;mid;;p">
+</treenode>
+<treenode node="getDownloads;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;100;2;108;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;100;2;108;;;;vpos;;v;;r;;d24,100;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="Employer;PHP:Class Name;C:\xampp\htdocs\appSample\www\util\classes.php;f0;131;1;188;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f0;131;1;188;;;;vpos;;v;;r;;d14,131;;b0,0;;m">
+<treenode node="inquire;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;178;2;185;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;178;2;185;;;;vpos;;v;;r;;d27,178;;b0,0;;mcontent;;p">
+</treenode>
+<treenode node="register;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;132;2;176;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;132;2;176;;;;vpos;;v;;r;;d28,132;;b0,0;;mcontent;;p">
+</treenode>
+</treenode>
+<treenode node="EmployerCategory;PHP:Class Name;C:\xampp\htdocs\appSample\www\util\classes.php;f0;87;1;97;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f0;87;1;97;;;;vpos;;v;;r;;d22,87;;b0,0;;m">
+<treenode node="getEmployerCategorys;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;88;2;96;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;88;2;96;;;;vpos;;v;;r;;d32,88;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="Image;PHP:Class Name;C:\xampp\htdocs\appSample\www\util\classes.php;f0;119;1;129;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f0;119;1;129;;;;vpos;;v;;r;;d11,119;;b0,0;;m">
+<treenode node="getImages;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;120;2;128;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;120;2;128;;;;vpos;;v;;r;;d21,120;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="Login;PHP:Class Name;C:\xampp\htdocs\appSample\www\util\classes.php;f0;952;1;1166;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f0;952;1;1166;;;;vpos;;v;;r;;d11,952;;b0,0;;m">
+<treenode node="Admin;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;954;2;976;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;954;2;976;;;;vpos;;v;;r;;d25,954;;b0,0;;mcontent;;p">
+</treenode>
+<treenode node="ApplicantLogin;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;978;2;1010;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;978;2;1010;;;;vpos;;v;;r;;d34,978;;b0,0;;mcontent;;p">
+</treenode>
+<treenode node="ApplicantPWReset;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;1131;2;1165;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;1131;2;1165;;;;vpos;;v;;r;;d36,1131;;b0,0;;mcontent;;p">
+</treenode>
+<treenode node="EmployeeLogin;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;1045;2;1086;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;1045;2;1086;;;;vpos;;v;;r;;d33,1045;;b0,0;;mcontent;;p">
+</treenode>
+<treenode node="EmployerLogin;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;1012;2;1043;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;1012;2;1043;;;;vpos;;v;;r;;d33,1012;;b0,0;;mcontent;;p">
+</treenode>
+<treenode node="EmployerPWReset;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;1089;2;1129;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;1089;2;1129;;;;vpos;;v;;r;;d35,1089;;b0,0;;mcontent;;p">
+</treenode>
+</treenode>
+<treenode node="Misc;PHP:Class Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f0;1;1;132;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f0;1;1;132;;;;vpos;;v;;r;;d11,1;;b0,0;;m">
+<treenode node="__rand_seed;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f4;13;5;20;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f4;13;5;20;;;;vpos;;v;;r;;d35,13;;b0,0;;mvalue;;p">
+</treenode>
+<treenode node="currentURL;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f4;68;5;88;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f4;68;5;88;;;;vpos;;v;;r;;d26,68;;b0,0;;m">
+</treenode>
+<treenode node="db2gmtime;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f4;32;5;38;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f4;32;5;38;;;;vpos;;v;;r;;d28,32;;b0,0;;mvar;;p">
+</treenode>
+<treenode node="dbtime;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f4;41;5;53;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f4;41;5;53;;;;vpos;;v;;r;;d30,41;;b0,0;;mvar;;p">
+</treenode>
+<treenode node="gmtime;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f4;56;5;58;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f4;56;5;58;;;;vpos;;v;;r;;d22,56;;b0,0;;m">
+</treenode>
+<treenode node="micro_time;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f4;61;5;65;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f4;61;5;65;;;;vpos;;v;;r;;d26,61;;b0,0;;m">
+</treenode>
+<treenode node="randCode;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f1;3;2;11;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f1;3;2;11;;;;vpos;;v;;r;;d43,3;;b0,0;;mcount;;pchars;;p">
+</treenode>
+<treenode node="randNumber;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f4;23;5;29;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f4;23;5;29;;;;vpos;;v;;r;;d56,23;;b0,0;;mlen;;pstart;;pend;;p">
+</treenode>
+<treenode node="realpath;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f4;127;5;130;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f4;127;5;130;;;;vpos;;v;;r;;d29,127;;b0,0;;mpath;;p">
+</treenode>
+<treenode node="timeDropdown;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\class.misc.php;f4;90;5;125;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\class.misc.php;f4;90;5;125;;;;vpos;;v;;r;;d61,90;;b0,0;;mhr;;pmin;;pname;;p">
+</treenode>
+</treenode>
+<treenode node="db_affected_rows;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;177;1;180;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;177;1;180;;;;vpos;;v;;r;;d28,177;;b0,0;;m">
+</treenode>
+<treenode node="db_assoc_array;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;164;1;171;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;164;1;171;;;;vpos;;v;;r;;d43,164;;b0,0;;mres;;pmode;;p">
+</treenode>
+<treenode node="db_close;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;62;1;65;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;62;1;65;;;;vpos;;v;;r;;d20,62;;b0,0;;m">
+</treenode>
+<treenode node="db_connect;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;3;1;60;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;3;1;60;;;;vpos;;v;;r;;d63,3;;b0,0;;mhost;;puser;;ppasswd;;poptions;;p">
+</treenode>
+<treenode node="db_connect_error;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;248;1;251;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;248;1;251;;;;vpos;;v;;r;;d28,248;;b0,0;;m">
+</treenode>
+<treenode node="db_count;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;139;1;141;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;139;1;141;;;;vpos;;v;;r;;d26,139;;b0,0;;mquery;;p">
+</treenode>
+<treenode node="db_create_database;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;99;1;105;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;99;1;105;;;;vpos;;v;;r;;d36,100;;b0,0;;mdatabase;;pcharset;;pcollate;;p">
+</treenode>
+<treenode node="db_data_reset;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;186;1;188;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;186;1;188;;;;vpos;;v;;r;;d29,186;;b0,0;;mres;;p">
+</treenode>
+<treenode node="db_data_seek;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;182;1;184;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;182;1;184;;;;vpos;;v;;r;;d41,182;;b0,0;;mres;;prow_number;;p">
+</treenode>
+<treenode node="db_errno;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;258;1;261;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;258;1;261;;;;vpos;;v;;r;;d20,258;;b0,0;;m">
+</treenode>
+<treenode node="db_error;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;253;1;256;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;253;1;256;;;;vpos;;v;;r;;d20,253;;b0,0;;m">
+</treenode>
+<treenode node="db_fetch_array;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;152;1;154;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;152;1;154;;;;vpos;;v;;r;;d50,152;;b0,0;;mres;;pmode;;p">
+</treenode>
+<treenode node="db_fetch_field;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;160;1;162;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;160;1;162;;;;vpos;;v;;r;;d30,160;;b0,0;;mres;;p">
+</treenode>
+<treenode node="db_fetch_row;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;156;1;158;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;156;1;158;;;;vpos;;v;;r;;d28,156;;b0,0;;mres;;p">
+</treenode>
+<treenode node="db_field_type;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;231;1;234;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;231;1;234;;;;vpos;;v;;r;;d37,231;;b0,0;;mres;;pcol;;p">
+</treenode>
+<treenode node="db_free_result;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;195;1;197;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;195;1;197;;;;vpos;;v;;r;;d30,195;;b0,0;;mres;;p">
+</treenode>
+<treenode node="db_get_variable;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;83;1;86;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;83;1;86;;;;vpos;;v;;r;;d53,83;;b0,0;;mvariable;;ptype;;p">
+</treenode>
+<treenode node="db_input;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;221;1;229;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;221;1;229;;;;vpos;;v;;r;;d37,221;;b0,0;;mvar;;pquote;;p">
+</treenode>
+<treenode node="db_insert_id;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;190;1;193;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;190;1;193;;;;vpos;;v;;r;;d24,190;;b0,0;;m">
+</treenode>
+<treenode node="db_num_rows;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;173;1;175;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;173;1;175;;;;vpos;;v;;r;;d27,173;;b0,0;;mres;;p">
+</treenode>
+<treenode node="db_output;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;199;1;209;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;199;1;209;;;;vpos;;v;;r;;d25,199;;b0,0;;mvar;;p">
+</treenode>
+<treenode node="db_prepare;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;236;1;246;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;236;1;246;;;;vpos;;v;;r;;d27,236;;b0,0;;mstmt;;p">
+</treenode>
+<treenode node="db_query;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;108;1;126;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;108;1;126;;;;vpos;;v;;r;;d42,108;;b0,0;;mquery;;plogError;;p">
+</treenode>
+<treenode node="db_real_escape;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;212;1;219;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;212;1;219;;;;vpos;;v;;r;;d44,212;;b0,0;;mval;;pquote;;p">
+</treenode>
+<treenode node="db_result;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;143;1;150;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;143;1;150;;;;vpos;;v;;r;;d33,143;;b0,0;;mres;;prow;;p">
+</treenode>
+<treenode node="db_select_database;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;94;1;97;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;94;1;97;;;;vpos;;v;;r;;d39,94;;b0,0;;mdatabase;;p">
+</treenode>
+<treenode node="db_set_variable;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;88;1;91;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;88;1;91;;;;vpos;;v;;r;;d61,88;;b0,0;;mvariable;;pvalue;;ptype;;p">
+</treenode>
+<treenode node="db_squery;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;128;1;137;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;128;1;137;;;;vpos;;v;;r;;d27,128;;b0,0;;mquery;;p">
+</treenode>
+<treenode node="db_timezone;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;79;1;81;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;79;1;81;;;;vpos;;v;;r;;d23,79;;b0,0;;m">
+</treenode>
+<treenode node="db_version;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\mysqli.php;f0;67;1;77;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\mysqli.php;f0;67;1;77;;;;vpos;;v;;r;;d22,67;;b0,0;;m">
+</treenode>
+<treenode node="GetFieldValue;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;67;2;85;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;67;2;85;;;;vpos;;v;;r;;d64,67;;b0,0;;mtable;;pfieldname;;pfieldkey;;pfieldvalue;;p">
+</treenode>
+<treenode node="isAdminLoggedIn;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;60;2;65;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;60;2;65;;;;vpos;;v;;r;;d27,60;;b0,0;;m">
+</treenode>
+<treenode node="isApplicantLoggedIn;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;44;2;58;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;44;2;58;;;;vpos;;v;;r;;d31,44;;b0,0;;m">
+</treenode>
+<treenode node="isEmployeeLoggedIn;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;28;2;42;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;28;2;42;;;;vpos;;v;;r;;d30,28;;b0,0;;m">
+</treenode>
+<treenode node="isEmployerLoggedIn;PHP:Function Name;C:\xampp\htdocs\appSample\www\util\classes.php;f1;12;2;26;;C:\xampp\htdocs\Phonegap\ercmobile\www\util\classes.php;f1;12;2;26;;;;vpos;;v;;r;;d30,12;;b0,0;;m">
+</treenode>
+</phptree>
+</codestructure>
