@@ -1,0 +1,377 @@
+table.wborder{
+font:Arial, Helvetica, sans-serif;
+font-size:13px;
+border:solid black;
+border-width: 1px 1px 1px 1px;
+text-align:left;
+padding: 0em;
+margin: 0em;
+}
+
+td.wborder{
+border:solid #000000;
+border-width: 1px ;
+padding: .2em;
+margin: 0em;
+white-space:nowrap;
+} 
+
+td.noborder{
+padding: .2em;
+margin: 0em;
+white-space:nowrap;
+} 
+
+tr.noborder{
+padding: .2em;
+margin: 0em;
+white-space:nowrap;
+} 
+
+td.rborder{
+border-right:normal #000000;
+border-right-width: inherit;		
+padding: .0em;
+margin: 0em;
+white-space:nowrap;
+} 
+
+td.lborder{
+border-left:normal #000000;
+border-left-width: inherit;	
+padding: .0em;
+margin: 0em;
+white-space:nowrap;
+} 
+td.bottomborder{
+border-bottom:solid #000000;
+border-bottom-width: 2px;	
+padding: .0em;
+margin: 0em;
+white-space:nowrap;
+} 
+
+td.boldcenter{
+font-weight: bold;
+text-align: center
+}
+
+td.boldright{
+font-weight: bold;
+text-align: right
+}
+
+td.boldleft{
+font-weight: bold;
+text-align: left
+}
+
+td.items{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding: 0em;margin: 0em; background-color: #ebeaec;font-weight:bold; }
+
+td.griditems{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding: 0em;padding-left:.50em;margin: 0em; font-weight:bold;text-align:left;}
+
+td.detailgriditems{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding: 0em;padding-left:.50em;margin: 0em; background-color: #ffecd2;font-weight:bold;text-align:left;}
+
+td.detailgridrightitems{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding-right: .50em; background-color: #ffecd2;font-weight:bold;text-align:right;}
+
+td.gridcenteritems{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding: 0em;margin: 0em;font-weight:bold;text-align:center;}
+
+td.gridrightitems{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding-right: .50em; font-weight:bold;text-align:right;}
+
+td.gridredcenteritems{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding: 0em;margin: 0em; font-weight:bold;text-align:center;color:red;}
+td.gridredrightitems{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding-right: .50em; font-weight:bold;text-align:right;
+color:red;}
+
+
+td.gridtotalitems{font:Arial, Helvetica, sans-serif;font-size:14px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding: 0em;margin: 0em; background-color: #a4f9ac;font-weight:bold;}
+
+
+td.gridtotalrightitems{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding-right: .50em;margin: 0em; background-color: #a4f9ac;font-weight:bold;text-align:right;}
+
+
+td.gridshaded{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding: 0em;margin: 0em; background-color: #dffddb;font-weight:bold;}
+
+td.gridnoshaded{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding: 0em;margin: 0em; background-color: #fcfeed;font-weight:bold;}
+
+table.greentone {border: solid #CCCCCC; border-width:1px 1px 0px 1px; background: #4ebf4a url('bg_form.png') left top repeat-x;			
+        background: -webkit-gradient(linear, left top, left 25, from(#4ebf4a), color-stop(4%, #EEEEEE), to(#4ebf4a));			background: -moz-linear-gradient(top, #4ebf4a, #EEEEEE 1px, #4ebf4a 25px);		
+        box-shadow: rgba(0,0,0, 0.1) 0px 0px 10px;
+        font-size:12px;
+        -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 10px;			
+        -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 10px;}
+
+
+                
+table.headerlightblue     {font-weight:bold; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;background:lightblue url('bg_form.png') left top repeat-x;			
+                         background: -webkit-gradient(linear, left top, left 25, from(lightblue), color-stop(4%, #EEEEEE), to(lightblue));			
+                         background: -moz-linear-gradient(top, lightblue, #EEEEEE 1px, lightblue 25px);			
+                         box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+                     -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+                     -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;}
+		
+td.leftitems {font:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;text-align:left;padding:0em;margin: 0em; }
+
+td.rightitems {font:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;text-align:right;padding: 0em;margin: 0em;}
+
+td.label {border: solid #CCCCCC; border-width:1px 1px 0px 1px; background: #FFFFFF url('bg_form.png') left top repeat-x;
+          background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));			  
+          background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);			
+          box-shadow: rgba(0,0,0, 0.1) 0px 0px 12px;
+          font-size:14px;
+		  font-weight:bold;
+		  -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 12px;			
+		  -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 12px;}
+		  
+td.detailgraygrid  {font-weight:bold; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;background: #dbd7dd url('bg_form.png') left top repeat-x;			
+          background: -webkit-gradient(linear, left top, left 25, from(#dbd7dd), color-stop(4%, #EEEEEE), to(#dbd7dd));			
+           background: -moz-linear-gradient(top, #dbd7dd, #EEEEEE 1px, #dbd7dd 25px);                     			box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;                        
+           text-align: center;		
+		   font-size:12x;	
+           -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+           -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;} 
+
+td.detailgraygridtotalrightitems{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding-right: .50em;margin: 0em; background-color: #dbd7dd;font-weight:bold;text-align:right;}
+
+
+td.mastergraygrid  {font-weight:bold; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;background: #a8a9b0 url('bg_form.png') left top repeat-x;			
+          background: -webkit-gradient(linear, left top, left 25, from(#a8a9b0), color-stop(4%, #EEEEEE), to(#a8a9b0));			
+           background: -moz-linear-gradient(top, #a8a9b0, #EEEEEE 1px, #a8a9b0 25px);                     			box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;                        
+           text-align: center;		
+		   font-size:14x;	
+           -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+           -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;} 
+
+td.mastergraygridtotalrightitems{font:Arial, Helvetica, sans-serif;font-size:14px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding-right: .50em;margin: 0em; background-color: #9b9ca4;font-weight:bold;text-align:right;}
+
+
+td.grid  {font-weight:bold; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;background: lightgreen url('bg_form.png') left top repeat-x;			
+          background: -webkit-gradient(linear, left top, left 25, from(lightgreen), color-stop(4%, #EEEEEE), to(lightgreen));			
+           background: -moz-linear-gradient(top, lightgreen, #EEEEEE 1px, lightgreen 25px);                     			box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;                        
+           text-align: center;		
+		   font-size:14x;	
+           -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+           -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;} 
+
+td.gridleft  {font-weight:bold; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;background: lightgreen url('bg_form.png') left top repeat-x;			
+          background: -webkit-gradient(linear, left top, left 25, from(lightgreen), color-stop(4%, #EEEEEE), to(lightgreen));			
+           background: -moz-linear-gradient(top, lightgreen, #EEEEEE 1px, lightgreen 25px);                     			box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;                        
+           text-align: left;		
+		   font-size:14x;	
+           -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+           -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;} 
+           
+td.gridright  {font-weight:bold; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;background: lightgreen url('bg_form.png') left top repeat-x;			
+          background: -webkit-gradient(linear, left top, left 25, from(lightgreen), color-stop(4%, #EEEEEE), to(lightgreen));			
+           background: -moz-linear-gradient(top, lightgreen, #EEEEEE 1px, lightgreen 25px);                     			box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;                        
+           text-align: right;		
+		   font-size:14x;	
+           -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+           -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;} 
+           
+td.greenlabelright  {font-weight:bold; font-family:"Times New Roman",Georgia,Serif; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;color:#4b39c6; background: lightgreen url('bg_form.png') left top repeat-x;			
+          background: -webkit-gradient(linear, left top, left 25, from(lightgreen), color-stop(4%, #EEEEEE), to(lightgreen));			
+           background: -moz-linear-gradient(top, lightgreen, #EEEEEE 1px, lightgreen 25px);                     			box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;                        
+           text-align: right;		
+		   font-size:14px;	
+           -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+           -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;} 
+                      
+td.leftlabel {border: solid #CCCCCC; border-width:1px 1px 0px 1px; background: #FFFFFF url('bg_form.png') left top repeat-x;
+          background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));			  background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);			
+          box-shadow: rgba(0,0,0, 0.1) 0px 0px 12px;
+          font-size:12px;
+          -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 12px;			
+          -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 12px;}
+		 
+.grid tr.shaded         { background: #d3efd4;  }
+.grid tr.alt            { background: #d3efd4; }
+.grid tr.shaded:hover   { background: #ceb60b; }
+.grid tr.alt:hover      { background: #ceb60b;}
+.grid tr.active         { background: #d3efd4;}
+.grid td.n              {border:solid #A6D2FF;                        
+		                border-width: 0px 1px 1px 0px;                        
+		                font-size:18px;                        
+		                padding: .2em;                        
+		                margin: 0em;
+		                white-space:nowrap;}   
+		                
+            
+                
+.grid tr.header 	{border: solid #CCCCCC; border-width:1px 1px 1px 1px; 
+					background: green url('bg_form.png') left top repeat-x;			
+	                background: -webkit-gradient(linear, left top, left 25, from(#9af3aa), color-stop(4%, #9af3aa), to(#FFFFFF));			
+	                background: -moz-linear-gradient(top, #9af3aa, #9af3aa 1px, #FFFFFF 50px);			                box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	                font-size:18px;
+	                font-weight: bolder;
+	                color:white; 
+	                padding: 5px 0px 5px 0px;
+	                -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+	                -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;}                              
+.form td              { background: #ddd; }
+.form th              {font-weight:bold; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;background: lightblue url('bg_form.png') left top repeat-x;			
+                      background: -webkit-gradient(linear, left top, left 25, from(lightblue), color-stop(4%, #EEEEEE), to(lightblue));			
+                      background: -moz-linear-gradient(top, lightblue, #EEEEEE 1px, lightblue 25px);                        
+                      box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;                        
+                      text-align: center;			
+                      -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+                      -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;} 
+
+
+td.n{
+border:solid #CCCCCC;
+border-width: 0px 1px 1px 0px;
+padding: .2em;
+margin: 0em;
+font-size:14px;
+white-space:nowrap;
+text-transform: uppercase;
+} 
+
+
+td.nr{
+border:solid #CCCCCC;
+border-width: 0px 1px 1px 0px;
+padding: .2em;
+margin: 0em;
+font-size:14px;
+text-align:right;
+white-space:nowrap;
+} 
+
+td.aa,th.aa{
+    font:Arial, Helvetica, sans-serif;
+    border:solid #000000;
+    border-width: 0px 1px 1px 0px;
+    padding: 0em;
+    margin: 0em;
+    white-space:nowrap;
+    } 
+
+td.greentoneheader   {border: solid #CCCCCC; border-width:1px 1px 1px 1px; 
+				background: #green url('bg_form.png') left top repeat-x;			
+                background: -webkit-gradient(linear, left top, left 25, from(#5cba5c), color-stop(4%, #5cba5c), to(#5cba5c));			
+                background: -moz-linear-gradient(top, #5cba5c, #5cba5c 1px, #5cba5c 50px);			
+                box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+                font-size:18px;
+                font-weight: bolder;
+                color:yellow; 
+                padding: 5px 0px 5px 0px;
+                -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+                -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;}	
+ 
+td.greentoneheaderbig   {border: solid #CCCCCC; border-width:1px 1px 1px 1px; 
+				background: #green url('bg_form.png') left top repeat-x;			
+                background: -webkit-gradient(linear, left top, left 25, from(green), color-stop(4%, green), to(green));			
+                background: -moz-linear-gradient(top, green, green 1px, green 50px);			
+                box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+                font-size:24px;
+                font-weight: bolder;
+                color:yellow; 
+                text-align:center;
+                padding: 5px 0px 5px 0px;
+                -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+                -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;}	 
+ 
+ table.aaa{
+    font:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    border:solid #000000;
+    border-width: 1px 0px 0px 1px;
+    text-align:left;
+    padding: 0em;
+    margin: 0em;
+    }
+
+
+#accordion{
+    /*width: 600px;*/
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#accordion tr.hovjob div.content {
+	background-color: #fef874; color: #000;
+  	display: none;
+	padding: 10px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+} 
+
+#accordion tr.hovjob:hover div.content{
+    display: inherit;
+    background-color: #fef874; color: #000;
+}
+
+tr.hov:hover{ background:#f5fa45}  
+
+tr.hovjob:hover td {
+  background-color: #fef874; color: #000;
+}  
+
+
+
+td.shaded	{ background: #ebeaec;}	               
+td.noshade	{ background: #fcfeed;}	
+
+table.greentone   {border: solid #CCCCCC; border-width:1px 1px 1px 1px; 
+				background: #green url('bg_form.png') left top repeat-x;			
+                background: -webkit-gradient(linear, left top, left 25, from(green), color-stop(4%, green), to(#FFFFFF));			
+                background: -moz-linear-gradient(top, green, green 1px, #FFFFFF 50px);			
+                box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+                font-size:18px; 
+                font-weight: bolder;
+                color:white;
+                padding: 5px 0px 5px 0px;
+                -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+                -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;}	
+
+table.lightgreentone   {border: solid #CCCCCC; border-width:1px 1px 1px 1px; 
+				background: #bdecbe url('bg_form.png') left top repeat-x;			
+                background: -webkit-gradient(linear, left top, left 25, from(#bdecbe), color-stop(4%, #bdecbe), to(#FFFFFF));			
+                background: -moz-linear-gradient(top, #bdecbe, #bdecbe 1px, #FFFFFF 50px);			            box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+                font-size:14px; 
+                padding: 5px 0px 5px 0px;
+                -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+                -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;}
+
+div.graytone {font-weight:bold; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;background: #a8a9b0 url('bg_form.png') left top repeat-x;			
+          background: -webkit-gradient(linear, left top, left 25, from(#a8a9b0), color-stop(4%, #EEEEEE), to(#a8a9b0));			
+           background: -moz-linear-gradient(top, #a8a9b0, #EEEEEE 1px, #a8a9b0 25px);                     			box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;                        
+           text-align: center;		
+		   font-size:14x;	
+           -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+           -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;}
+
+table.graytone {border: solid #CCCCCC; border-width:1px 1px 0px 1px; background: #FFFFFF url('bg_form.png') left top repeat-x;			
+        background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));			background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);		
+        box-shadow: rgba(0,0,0, 0.1) 0px 0px 10px;
+        font-size:12px;
+        -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 10px;			
+        -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 10px;}
+
+.graytone td{font:Arial, Helvetica, sans-serif;font-size:12px;border:solid #CCCCCC;border-width: 1px 0px 0px 1px;padding: 0em;padding-left:.50em;margin: 0em; font-weight:bold;}
+  
+.graytone th{font-weight:bold; border: solid #CCCCCC; border-width:1px 1px 0px 1px; padding:4px; background-color:#CCCCCC;background: #a8a9b0 url('bg_form.png') left top repeat-x;			
+          background: -webkit-gradient(linear, left top, left 25, from(#a8a9b0), color-stop(4%, #EEEEEE), to(#a8a9b0));			
+           background: -moz-linear-gradient(top, #a8a9b0, #EEEEEE 1px, #a8a9b0 25px);                     			box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;                        
+           text-align: center;		
+		   font-size:16x;
+		   text-transform: uppercase;	
+		   font-weight: bolder;
+           -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;			
+           -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	
+}	
+/* provide some minimal visual accomodation for IE8 and below */
+.graytone tr{
+	background: #ebeaec;
+}
+/*  Define the background color for all the ODD background rows  */
+.graytone tr:nth-child(odd){ 
+	background: #ebeaec;
+}
+/*  Define the background color for all the EVEN background rows  */
+.graytone tr:nth-child(even){
+	background: #fcfeed;
+}
