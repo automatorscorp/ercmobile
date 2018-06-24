@@ -41,6 +41,7 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/tables.css" />
     <title>ERC Mobile App</title>
     
     
@@ -48,6 +49,10 @@
 	<style>
 	
 	/*desktop size	*/
+	
+	#parent {
+		height: 580px;
+	}
 	
 	.bold{
 		text-decoration: underline;
@@ -443,6 +448,7 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/tableHeadFixer.js"></script> 
     
     <script type="text/javascript">
         app.initialize();
@@ -483,6 +489,12 @@
 			
 		});
 		*/
+		
+		$("body").on("mouseenter","#prtbl",  
+		function(){
+			alert();
+			//$("#prtbl").tableHeadFixer({'foot' : true, 'head' : true}); 
+		});	
 		    
     	function showpageonload(table){
 	    	if (window.XMLHttpRequest)
@@ -515,39 +527,7 @@
 	
 		try{
 			
-			/*
-			url="http://192.168.43.250:3000/util/ExtractTable.php";
-			$.getJSON(url,function(result){
-				alert();
-				console.log(result);
-				$.each(result, function(i, field){
-					var id=field.ProductID;
-			 		var lotname=field.ProductName;
-			 		var client=field.ClientName;
-			 		$("#listview").append(id+" "+lotname+" "+client);
-			 	});
-			 });
-			*/
 			
-			//ShowLoading('txtMainRoute');
-			//alert();
-			//GetColumnData('product','productname','','',false);
-			/*
-			dataString="table=product=&columnname=productname&keyname=&keyvalue";
-			$.ajax({
-				
-				type: "GET",
-				url: "http://192.168.43.250:3000/util/ExtractColumnData.php",
-				data: dataString,
-				crossDomain: true,
-				cache: false,
-				beforeSend: function(){ $("#searchinvoicebtn").val('Connecting...');},
-				success: function(data){
-						alert(data);
-					
-				}
-			});
-			*/
 			$.support.cors=true;
 			//$.mobile.allowCrossDomainPages = true;
 			$.ajax({
@@ -557,37 +537,33 @@
 				cache: false,
 				beforeSend: function(){ $("#searchinvoicebtn").val('Connecting...');},
 				success: function(result,textStatus,jqXHR){
-						//alert(result);
-						//document.write("<table width='100' border='0'></table>");
+						//alert(Object.keys(result[0]).length/2);
+						var collength=Object.keys(result[0]).length/2;
+						var rowlength=Object.keys(result).length;
 						var body = document.body;
-						var tbl  = document.createElement("table");
+						var prtbl  = document.createElement("table");
+						var trhead = prtbl.insertRow();
+						var parentdiv  = document.createElement("div");
+        				
+        				var i;
+        				for (i = 1; i <= collength+1; i++) { 
+						    //var thead.concat(i) = trhead.insertCell();
+						   	//window["thead"+i]=trhead.insertCell();
+						   	 var tdhead ="tdhead"+ i+" = trhead.insertCell()";
+						    //Declaring and Setting dynamic variable to undefined using eval
+						    eval(tdhead);
+						    if(i==1){
+						    	tdhead1.appendChild(document.createTextNode('No'));
+						    }
+						}
 						
-        				var trhead = tbl.insertRow();
-        				var tdhead1 = trhead.insertCell();
-				 		var tdhead2 = trhead.insertCell();
-				 		var tdhead3 = trhead.insertCell();
-				 		var tdhead4 = trhead.insertCell();
-				 		var tdhead5 = trhead.insertCell();
-				 		var tdhead6 = trhead.insertCell();
-				 		var tdhead7 = trhead.insertCell();
-				 		var tdhead8 = trhead.insertCell();
-				 		var tdhead9 = trhead.insertCell();
-				 		var tdhead10 = trhead.insertCell();
+						
+						parentdiv.setAttribute("class", "parent");
+				 		prtbl.setAttribute("class", "graytone table");
+				 		prtbl.setAttribute("width", "100%");
 				 		
-				 		tdhead1.style.border = '1px solid black';
-				 		tdhead2.style.border = '1px solid black';
-				 		tdhead3.style.border = '1px solid black';
-				 		tdhead4.style.border = '1px solid black';
-				 		tdhead5.style.border = '1px solid black';
-				 		tdhead6.style.border = '1px solid black';
-				 		tdhead7.style.border = '1px solid black';
-				 		tdhead7.style.border = '1px solid black';
-				 		tdhead8.style.border = '1px solid black';
-				 		tdhead9.style.border = '1px solid black';
-				 		tdhead10.style.border = '1px solid black';
-				 		tbl.style.border = '1px solid black';
 				 		
-				 		tdhead1.appendChild(document.createTextNode('No'));
+				 		
 				 		tdhead2.appendChild(document.createTextNode('P O DATE'));
 				 		tdhead3.appendChild(document.createTextNode('DUE DATE'));
 				 		tdhead4.appendChild(document.createTextNode('REQUESTED BY'));
@@ -597,6 +573,8 @@
 				 		tdhead8.appendChild(document.createTextNode('AMOUNT'));
 				 		tdhead9.appendChild(document.createTextNode('REMARKS'));
 				 		tdhead10.appendChild(document.createTextNode(''));
+				 		
+				 		
 				 		
 				 		$.each(result, function(i, field){
 							var tid=field.POMasterID;
@@ -609,7 +587,7 @@
 					 		var Amount=field.Amount;
 					 		var Remarks=field.Remarks;
 					 		
-					 		var tr = tbl.insertRow();
+					 		var tr = prtbl.insertRow();
 					 		var td1 = tr.insertCell();
 					 		var td2 = tr.insertCell();
 					 		var td3 = tr.insertCell();
@@ -621,8 +599,7 @@
 					 		var td9 = tr.insertCell();
 					 		var td10 = tr.insertCell();
 					 		var input10a = document.createElement("input");
-					 		var input10b = document.createElement("input");
-					 		
+					 		//var input10b = document.createElement("input");
 					 		
 					 		input10a.id='view' + tid
 							input10a.type = "image";
@@ -631,12 +608,12 @@
 					 		input10a.onclick = function() { alert(input10a.id); };
 
 					 		
-							input10b.id='add'+ tid
+							/*input10b.id='add'+ tid
 							input10b.type = "image";
 							input10b.src="img/add.png" ;
 					 		input10b.style="width:20px;height:20px;" ;
 					 		input10b.onclick = function() { alert(input10b.id); };
-					 		
+					 		*/
 					 		
 					 		td1.appendChild(document.createTextNode(i+1));
 					 		td2.appendChild(document.createTextNode(PODate));
@@ -648,22 +625,13 @@
 					 		td8.appendChild(document.createTextNode(Amount));
 					 		td9.appendChild(document.createTextNode(Remarks));
 					 		td10.appendChild(input10a);
-					 		td10.appendChild(input10b);
+					 		//td10.appendChild(input10b);
 					 		
-					 		td1.style.border = '1px solid black';
-					 		td2.style.border = '1px solid black';
-					 		td3.style.border = '1px solid black';
-					 		td4.style.border = '1px solid black';
-					 		td5.style.border = '1px solid black';
-					 		td6.style.border = '1px solid black';
-					 		td7.style.border = '1px solid black';
-					 		td8.style.border = '1px solid black';
-					 		td9.style.border = '1px solid black';
-					 		td10.style.border = '1px solid black';
-					 		td10.style.textAlign = 'center';
+					 		
 					 		//$("#listview").append(++i+" "+TeeTimeDate+" "+TeeTimeTime+" ("+PlayerCount+")</br>");
 					 	});
-						body.appendChild(tbl);
+					 	body.appendChild(parentdiv);
+					 	parentdiv.appendChild(prtbl);
 				},
 				error: function (xhr, status, error) {
 		            alert(xhr.responseText+status+error);
